@@ -162,7 +162,7 @@ export default function Home() {
           className="grid grid-cols-1 md:grid-cols-3 gap-6 font-mono text-xs uppercase tracking-widest text-[var(--text-main)] border-y border-[var(--border-line)] py-6 mb-24"
         >
           <div className="flex items-center gap-3">
-             <div className="w-1.5 h-1.5 rounded-full bg-[var(--text-main)]"></div> 2+ AI Systems Built
+             <div className="w-1.5 h-1.5 rounded-full bg-[var(--text-main)]"></div> 3+ AI Systems Built
           </div>
           <div className="flex items-center gap-3">
              <div className="w-1.5 h-1.5 rounded-full bg-[var(--text-main)]"></div> Full-Stack (Frontend + Backend + AI)
@@ -217,6 +217,24 @@ export default function Home() {
                   <ul className="space-y-3 font-mono text-xs text-[var(--text-muted)] leading-relaxed list-disc pl-4">
                     <li>Developed full-stack features: authentication, scalable database, API endpoints</li>
                     <li>Linked standard e-commerce UI to real-time negotiation logic</li>
+                  </ul>
+                </div>
+              </div>
+            </a>
+
+            <a href="https://resume-fixer-one.vercel.app" target="_blank" rel="noreferrer" className="block outline-none">
+              <div className="system-card bg-[var(--bg-panel)] p-8 h-full flex flex-col justify-between">
+                <div>
+                  <div className="flex justify-between items-start mb-4">
+                    <h3 className="text-2xl font-bold tracking-tight">AI Resume Fixer</h3>
+                    <ArrowUpRight strokeWidth={1.5} size={24} className="text-[var(--text-muted)]" />
+                  </div>
+                  <p className="font-sans text-base text-[var(--text-muted)] font-medium mb-6">
+                    AI-powered resume rewriting engine that transforms weak resumes into job-ready assets.
+                  </p>
+                  <ul className="space-y-3 font-mono text-xs text-[var(--text-muted)] leading-relaxed list-disc pl-4">
+                    <li>Built with Next.js and OpenAI API to rewrite and optimize resume content</li>
+                    <li>Deployed as a full-stack SaaS with instant AI feedback and output</li>
                   </ul>
                 </div>
               </div>
