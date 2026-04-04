@@ -132,7 +132,7 @@ export default function Home() {
               Full-Stack Developer Building AI Systems
             </p>
             <p className="font-sans text-base text-[var(--text-main)] mb-6 max-w-xl leading-relaxed">
-              I design and build AI-powered applications that analyze data, automate decisions, and deliver measurable outcomes.
+              Most people write code. I architect systems — from schema to deployment, from idea to a product living in production. I don't stop at 'it works locally.'
             </p>
             <p className="font-mono text-sm font-semibold uppercase tracking-widest text-[var(--text-main)] border-l-2 border-[var(--text-main)] pl-4">
               Focused on real-world systems, not tutorials.
