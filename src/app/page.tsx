@@ -190,15 +190,15 @@ export default function Home() {
               <div className="system-card bg-[var(--bg-panel)] p-8 h-full flex flex-col justify-between">
                 <div>
                   <div className="flex justify-between items-start mb-4">
-                    <h3 className="text-2xl font-bold tracking-tight">AI Resume Analyzer</h3>
+                    <h3 className="text-2xl font-bold tracking-tight">MatchLayer</h3>
                     <ArrowUpRight strokeWidth={1.5} size={24} className="text-[var(--text-muted)]" />
                   </div>
                   <p className="font-sans text-base text-[var(--text-muted)] font-medium mb-6">
-                    Analyzes resumes against job descriptions and identifies skill gaps instantly.
+                    Resume-to-job match scoring engine that surfaces skill gaps and hiring signals instantly.
                   </p>
                   <ul className="space-y-3 font-mono text-xs text-[var(--text-muted)] leading-relaxed list-disc pl-4">
                     <li>Built full-stack system using Next.js, Node.js, and OpenAI API</li>
-                    <li>Implemented scoring engine + real-time feedback system</li>
+                    <li>Implemented real-time scoring engine with skill-gap analysis</li>
                   </ul>
                 </div>
               </div>
@@ -208,15 +208,15 @@ export default function Home() {
               <div className="system-card bg-[var(--bg-panel)] p-8 h-full flex flex-col justify-between">
                 <div>
                   <div className="flex justify-between items-start mb-4">
-                    <h3 className="text-2xl font-bold tracking-tight">AI Marketplace Engine</h3>
+                    <h3 className="text-2xl font-bold tracking-tight">NegotiX</h3>
                     <ArrowUpRight strokeWidth={1.5} size={24} className="text-[var(--text-muted)]" />
                   </div>
                   <p className="font-sans text-base text-[var(--text-muted)] font-medium mb-6">
-                    Real-time e-commerce negotiation via an autonomous AI sales agent.
+                    Autonomous negotiation marketplace where a live agent closes deals in real time.
                   </p>
                   <ul className="space-y-3 font-mono text-xs text-[var(--text-muted)] leading-relaxed list-disc pl-4">
-                    <li>Developed full-stack features: authentication, scalable database, API endpoints</li>
-                    <li>Linked standard e-commerce UI to real-time negotiation logic</li>
+                    <li>Built full-stack e-commerce: auth, Postgres DB, REST API endpoints</li>
+                    <li>Wired negotiation agent directly into product checkout flow</li>
                   </ul>
                 </div>
               </div>
@@ -226,15 +226,15 @@ export default function Home() {
               <div className="system-card bg-[var(--bg-panel)] p-8 h-full flex flex-col justify-between">
                 <div>
                   <div className="flex justify-between items-start mb-4">
-                    <h3 className="text-2xl font-bold tracking-tight">AI Resume Fixer</h3>
+                    <h3 className="text-2xl font-bold tracking-tight">ResumeForge</h3>
                     <ArrowUpRight strokeWidth={1.5} size={24} className="text-[var(--text-muted)]" />
                   </div>
                   <p className="font-sans text-base text-[var(--text-muted)] font-medium mb-6">
-                    AI-powered resume rewriting engine that transforms weak resumes into job-ready assets.
+                    Resume rewriting engine that restructures and sharpens resume content for target roles.
                   </p>
                   <ul className="space-y-3 font-mono text-xs text-[var(--text-muted)] leading-relaxed list-disc pl-4">
-                    <li>Built with Next.js and OpenAI API to rewrite and optimize resume content</li>
-                    <li>Deployed as a full-stack SaaS with instant AI feedback and output</li>
+                    <li>Built with Next.js and OpenAI API to analyze, rewrite, and optimize content</li>
+                    <li>Deployed as a full-stack SaaS with instant output and download</li>
                   </ul>
                 </div>
               </div>
