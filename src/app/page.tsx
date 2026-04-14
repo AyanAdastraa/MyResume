@@ -239,6 +239,42 @@ export default function Home() {
                 </div>
               </div>
             </a>
+
+            <a href="https://www.electricianalliance.com/" target="_blank" rel="noreferrer" className="block outline-none">
+              <div className="system-card bg-[var(--bg-panel)] p-8 h-full flex flex-col justify-between">
+                <div>
+                  <div className="flex justify-between items-start mb-4">
+                    <h3 className="text-2xl font-bold tracking-tight">Electrician Alliance</h3>
+                    <ArrowUpRight strokeWidth={1.5} size={24} className="text-[var(--text-muted)]" />
+                  </div>
+                  <p className="font-sans text-base text-[var(--text-muted)] font-medium mb-6">
+                    High-performance, production-ready platform for a multi-million dollar electrical company.
+                  </p>
+                  <ul className="space-y-3 font-mono text-xs text-[var(--text-muted)] leading-relaxed list-disc pl-4">
+                    <li>Led complete replication and optimization of the core website</li>
+                    <li>Achieved top-tier Lighthouse performance and accessibility scores</li>
+                  </ul>
+                </div>
+              </div>
+            </a>
+
+            <a href="https://sifat-resume-portfolio.vercel.app/" target="_blank" rel="noreferrer" className="block outline-none">
+              <div className="system-card bg-[var(--bg-panel)] p-8 h-full flex flex-col justify-between">
+                <div>
+                  <div className="flex justify-between items-start mb-4">
+                    <h3 className="text-2xl font-bold tracking-tight">Sifat Portfolio</h3>
+                    <ArrowUpRight strokeWidth={1.5} size={24} className="text-[var(--text-muted)]" />
+                  </div>
+                  <p className="font-sans text-base text-[var(--text-muted)] font-medium mb-6">
+                    Immersive, 3D-animated resume and portfolio for a high-end photographer and video editor.
+                  </p>
+                  <ul className="space-y-3 font-mono text-xs text-[var(--text-muted)] leading-relaxed list-disc pl-4">
+                    <li>Built premium creative agency-style experience with cinematic animations</li>
+                    <li>Leveraged Next.js, Tailwind CSS, and Framer Motion for fluid UI</li>
+                  </ul>
+                </div>
+              </div>
+            </a>
             
           </div>
         </motion.div>
